@@ -1,0 +1,9 @@
+@plugin "@iconify/tailwind4";
+@import "tailwindcss";
+
+
+@theme {
+  --breakpoint-desktop: 90rem;      /* 1440px */
+  --breakpoint-tablet: 48rem;       /* 768px */
+    /* Tailwindcss breakpoints are mobile first so we don't need a specific mobile breakpoint */
+}
